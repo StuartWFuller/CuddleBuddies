@@ -17,7 +17,25 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = Behavior)
 		class UBehaviorTree *BotBehavior;
+	//
+//	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EnemyCharacter")
+//		float Health = 100;
+//
+//	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "EnemyCharacter")
+//		bool isDead = false;
+//
+//	//calculate death
+//	virtual void CalculateDead();
+//
+//	//calculate health
+//	UFUNCTION(BlueprintCallable, Category = "EnemyCharacter")
+//		virtual void CalculateHealth(float delta);
+//
+//#if WITH_EDITOR
+//	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
+//		override;
 
+#endif
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

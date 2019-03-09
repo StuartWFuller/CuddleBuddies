@@ -38,6 +38,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Player)
 		float MaxHealth;
 
+	
+
 protected:
 
 	/** Resets HMD orientation in VR. */

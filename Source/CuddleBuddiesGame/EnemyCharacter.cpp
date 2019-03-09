@@ -32,3 +32,30 @@ void AEnemyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 }
 
+
+//void AEnemyCharacter::CalculateHealth(float Delta)
+//{
+//	Health += Delta;
+//	CalculateDead();
+//}
+//
+//void AEnemyCharacter::CalculateDead()
+//{
+//	if (Health <= 0)
+//		isDead = true;
+//	else
+//		isDead = false;
+//}
+//
+//#if WITH_EDITOR
+//void AEnemyCharacter::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
+//{
+//	isDead = false;
+//	Health = 100;
+//
+//	Super::PostEditChangeProperty(PropertyChangedEvent);
+//
+//	CalculateDead();
+//}
+//
+//#endif
