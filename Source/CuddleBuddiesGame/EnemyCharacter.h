@@ -35,7 +35,7 @@ public:
 //	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 //		override;
 
-#endif
+//#endif
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
