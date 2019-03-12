@@ -36,7 +36,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Player)
 		float Health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Player)
-		float MaxHealth;
+		float MaxHealth = 1.0f;
 
 	
 
