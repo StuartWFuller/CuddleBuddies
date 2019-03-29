@@ -32,7 +32,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Player)
 		int Gold;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Player)
-		int Xp;
+		int Score;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Player)
 		float Health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Player)
