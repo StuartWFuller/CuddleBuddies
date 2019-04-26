@@ -9,7 +9,7 @@
 UCLASS()
 class CUDDLEBUDDIESGAME_API APickupBase : public AActor
 {
-	class USphereComponent;
+	//class USphereComponent;
 
 	GENERATED_BODY()
 	
@@ -17,13 +17,13 @@ public:
 	// Sets default values for this actor's properties
 	APickupBase();
 
-	UPROPERTY(VisibleAnywhere, Category = "Components")
-	USphereComponent* SphereComp;
+	//UPROPERTY(VisibleAnywhere, Category = "Components")
+	//USphereComponent* SphereComp;
 
-	void NotifyActorBeginOverlap(AActor * OtherActor);
+	//void NotifyActorBeginOverlap(AActor * OtherActor);
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
-		void OnActivate(AActor * pickedUpBy);
+	//UFUNCTION(BlueprintImplementableEvent, Category = "Pickup")
+		//void OnActivate(AActor * pickedUpBy);
 
 protected:
 	// Called when the game starts or when spawned

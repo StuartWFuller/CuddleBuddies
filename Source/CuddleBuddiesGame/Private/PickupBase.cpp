@@ -6,11 +6,11 @@
 // Sets default values
 APickupBase::APickupBase()
 {
-	"Components/SphereComponent.h";
+	//"Components/SphereComponent.h";
 
-	SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
+	//SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	//PrimaryActorTick.bCanEverTick = true;
 
 }
 
@@ -28,8 +28,8 @@ void APickupBase::Tick(float DeltaTime)
 
 }
 
-void APickupBase::NotifyActorBeginOverlap(AActor * OtherActor)
-{
-	OnActivate(OtherActor);
-}
+//void APickupBase::NotifyActorBeginOverlap(AActor * OtherActor)
+//{
+//	OnActivate(OtherActor);
+//}
 
